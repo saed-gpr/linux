@@ -10,9 +10,8 @@ If that's the case, I suggest reading this repository to improve your Linux skil
 # Topics
 
 let me tell you the topics:
-- [Topic1](https://github.com/saed-gpr)
-- [Topic2](https://github.com/saed-gpr)
-- [Topic3](https://github.com/saed-gpr)
+- Types of linux
+- Basic syntaxes
 
 
 <p align='center'> <a href="https://skillicons.dev"> <img src="https://skillicons.dev/icons?i=linux" /></a></p>
