@@ -37,13 +37,26 @@ these are the Basic syntax:
 - `uname`
 - `nano`
 
-### cd :
+### 1- `cd` :
 In fact, `cd` stands for 'Change Directory'. As you guessed, this syntax can help us change our current directory. This syntax is very basic and useful for us!
-!
 
 ![cd](https://github.com/user-attachments/assets/816b9079-0b3a-4844-9907-f051b6c0b3fa)
 
 In this case we changed our directory into Desktop.
+
+
+### 2- `ls` :
+`ls` shows us the files in a specific directory.
+
+For example, on the Desktop, we have some files, and we want to see their names and types in the terminal
+
+![ls 1](https://github.com/user-attachments/assets/288b011d-3526-4d60-8901-a6b6a3f8483a)
+
+so we can use this syntax
+
+![ls 2](https://github.com/user-attachments/assets/308101fa-86df-4b14-a51f-4b61883a5a40)
+
+as you can see we have a .py file, PDF and a folder.
 
 
 
