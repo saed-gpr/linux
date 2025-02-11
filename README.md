@@ -17,24 +17,36 @@ let me tell you the topics:
 # Types of linux
 
 We have many versions of Linux, but the most popular ones are Debian-based and Red Hat-based
-- Debian - Based:
+- Debian - Based :
     - [Ubuntu](https://ubuntu.com/)
     - [Kali Linux](https://www.kali.org/)
     - [Rassbery Pi OS](https://www.raspberrypi.com/software/)
-- Red Hat - Based:
+- Red Hat - Based :
     - [Fedora](https://fedoraproject.org/)
-    - Oracle
-    - AlmaLinux
+    - [Oracle](https://www.oracle.com/linux/technologies/oracle-linux-downloads.html)
+    - [AlmaLinux](https://almalinux.org/get-almalinux/)
  
 # Basic syntax
 these are the Basic syntax:
-- ls
-- less
-- cat
-- sudo
-- whereis
-- uname
-- nano
+- `cd`
+- `ls`
+- `less`
+- `cat`
+- `sudo`
+- `whereis`
+- `uname`
+- `nano`
+
+### cd :
+In fact, `cd` stands for 'Change Directory'. As you guessed, this syntax can help us change our current directory. This syntax is very basic and useful for us!
+!
+
+![cd](https://github.com/user-attachments/assets/816b9079-0b3a-4844-9907-f051b6c0b3fa)
+
+In this case we changed our directory into Desktop.
+
+
+
 
 <p align='center'> <a href="https://skillicons.dev"> <img src="https://skillicons.dev/icons?i=linux" /></a></p>
 
