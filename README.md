@@ -61,8 +61,6 @@ as you can see we have a .py file, PDF and a folder.
 
 
 
-<p align='center'> <a href="https://skillicons.dev"> <img src="https://skillicons.dev/icons?i=linux" /></a></p>
-
 
 - Author : [Saed Gholipour](https://github.com/saed-gpr)
 - sources: [Lpic1book](https://linux1st.com/)
