@@ -32,8 +32,8 @@ These are the Basic syntax:
 - `ls`
 - `sudo`
 - `whereis`
-- `less`
 - `cat`
+- `less`
 - `uname`
 - `nano`
 
