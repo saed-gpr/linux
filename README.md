@@ -79,8 +79,8 @@ whereis wireshark
 ```
 
 ### 5- `cat` :
-If you want to see the content of a file, you can use this command. for example we want to see the content of `/var/log/boot.log`.
-At first we shoul become root therefore we use the 3rd command (`sudo`) and then `cat`
+If you want to see the content of a file, you can use this command. For example, if we want to see the content of /var/log/boot.log, we should first become root. Therefore, we use the sudo command and then cat.
+
 
 ```bash
 sudo cat /var/log/boot.log
