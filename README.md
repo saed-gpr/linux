@@ -87,6 +87,10 @@ sudo cat /var/log/boot.log
 ```
 
 
+https://github.com/user-attachments/assets/07d78e0f-bf13-4449-bd3f-af2ec1e509c9
+
+
+
 #
 - Author : [Saed Gholipour](https://github.com/saed-gpr)
-- sources: [Lpic1book](https://linux1st.com/)
+- source : [Lpic1book](https://linux1st.com/)
