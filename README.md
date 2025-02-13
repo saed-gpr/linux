@@ -27,7 +27,7 @@ We have many versions of Linux, but the most popular ones are Debian-based and R
     - [AlmaLinux](https://almalinux.org/get-almalinux/)
  
 # Basic syntax
-these are the Basic syntax:
+These are the Basic syntax:
 - `cd`
 - `ls`
 - `sudo`
