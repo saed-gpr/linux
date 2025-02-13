@@ -53,19 +53,18 @@ In this case we changed our directory into Desktop.
 
 For example, on the Desktop, we have some files, and we want to see their names and types in the terminal
 
-```bash
-ls
-```
 
 ![ls 1](https://github.com/user-attachments/assets/288b011d-3526-4d60-8901-a6b6a3f8483a)
 
 so we can use this syntax
-
+```bash
+ls
+```
 ![ls 2](https://github.com/user-attachments/assets/308101fa-86df-4b14-a51f-4b61883a5a40)
 
 as you can see we have a .py file, PDF and a folder.
 
-### 3- `sodu` :
+### 3- `sudo` :
 When you use this syntax, you become the `root` user and are able to edit sensitive files, such as installing or modifying package settings. For this reason, you should know the password.
 
 ![sudo](https://github.com/user-attachments/assets/35e61ddb-ddbf-4d7e-adf2-e1e07502882a)
@@ -86,7 +85,7 @@ whereis wireshark
 ```
 
 ### 5- `cat` :
-If you want to see the content of a file, you can use this command. For example, if we want to see the content of /var/log/boot.log, we should first become root. Therefore, we use the sudo command and then cat.
+If you want to see the content of a file, you can use this command. For example, if we want to see the content of `/var/log/boot.log` , we should first become root. Therefore, we use the sudo command and then cat.
 
 
 ```bash
