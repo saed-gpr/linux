@@ -30,10 +30,10 @@ We have many versions of Linux, but the most popular ones are Debian-based and R
 these are the Basic syntax:
 - `cd`
 - `ls`
-- `less`
-- `cat`
 - `sudo`
 - `whereis`
+- `less`
+- `cat`
 - `uname`
 - `nano`
 
@@ -58,9 +58,33 @@ so we can use this syntax
 
 as you can see we have a .py file, PDF and a folder.
 
+### 3- `sodu` :
+When you use this syntax, you become the `root` user and are able to edit sensitive files, such as installing or modifying package settings. For this reason, you should know the password.
 
+![sudo](https://github.com/user-attachments/assets/35e61ddb-ddbf-4d7e-adf2-e1e07502882a)
 
+```bash
+sudo shutdown
+sudo reboot
+```
 
+### 4- `Whereis` :
+To find the path of some programs, you can use the `whereis` command. This command shows you the path.
 
+![whereis](https://github.com/user-attachments/assets/6c72cca9-fe6a-44d8-bdfd-5c4df2b839af)
+
+```bash
+#whereis <file or program's name>
+whereis wireshark
+```
+
+### `cat` :
+If you want to see the content of a file, you can use this command. for example we want to see the content of `/var/log/boot.log`.
+At first we shoul become root therefore we use the 3rd command (`sudo`) and then `cat`
+
+```bash
+sudo cat /var/log/boot.log
+```
+#
 - Author : [Saed Gholipour](https://github.com/saed-gpr)
 - sources: [Lpic1book](https://linux1st.com/)
