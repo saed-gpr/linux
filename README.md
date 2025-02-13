@@ -13,7 +13,8 @@ If that's the case, I suggest reading this repository to improve your Linux skil
 let me tell you the topics:
 - Types of linux
 - Basic syntax
-  
+- Unix directories
+
 # Types of linux
 
 We have many versions of Linux, but the most popular ones are Debian-based and Red Hat-based
@@ -33,6 +34,8 @@ These are the Basic syntax:
 - `sudo`
 - `whereis`
 - `cat`
+- `man`
+- `-ltrh`
 - `less`
 - `uname`
 - `nano`
@@ -49,6 +52,10 @@ In this case we changed our directory into Desktop.
 `ls` shows us the files in a specific directory.
 
 For example, on the Desktop, we have some files, and we want to see their names and types in the terminal
+
+```bash
+ls
+```
 
 ![ls 1](https://github.com/user-attachments/assets/288b011d-3526-4d60-8901-a6b6a3f8483a)
 
