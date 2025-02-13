@@ -35,6 +35,8 @@ These are the Basic syntax:
 - `whereis`
 - `cat`
 - `man`
+- `mkdir`
+- `ping`
 - `-ltrh`
 - `less`
 - `uname`
