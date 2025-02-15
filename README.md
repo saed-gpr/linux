@@ -62,11 +62,11 @@ In this case we changed our directory into Desktop.
 ```
 
 #### options:
-1- `-a`, `--all` -> do not ignore entries starting with.
+- `-a`, `--all` -> do not ignore entries starting with.
 
-2- `--version` -> output version information and exit.
+- `--version` -> output version information and exit.
 
-3- `-d`, `--directory` -> list the directoriy names (not theier contents)!
+- `-d`, `--directory` -> list the directoriy names (not theier contents)!
 
 For example, on the Desktop, we have some files, and we want to see their names and types in the terminal
 
@@ -94,6 +94,17 @@ sudo reboot
 ### 4- `Whereis` :
 To find the path of some programs, you can use the `whereis` command. This command shows you the path.
 
+``` bash
+#SYNPOSIS:
+#whereis [options] [-BMS derectory... -f] name ...
+```
+
+#### options:
+- `-b` -> search for binaries.
+
+- `-s` -> shearch for sources
+
+
 ![whereis](https://github.com/user-attachments/assets/6c72cca9-fe6a-44d8-bdfd-5c4df2b839af)
 
 ```bash
@@ -104,7 +115,14 @@ whereis wireshark
 ### 5- `cat` :
 If you want to see the content of a file, you can use this command. For example, if we want to see the content of `/var/log/boot.log` , we should first become root. Therefore, we use the sudo command and then cat.
 
+```bash
+#SYNPOSIS:
+#cat [option]...[file]...
+```
 
+#### options:
+- `-A`, `--show-all` -> it is used for showing the content of a file with non-printing characters
+`
 ```bash
 sudo cat /var/log/boot.log
 ```
