@@ -43,6 +43,7 @@ These are the Basic syntax:
 - `nano`
 - `mkdir`
 - `wall`
+- `dmesg`
 
 ### 1- `cd` :
 In fact, `cd` stands for 'Change Directory'. As you guessed, this syntax can help us change our current directory. This syntax is very basic and useful for us!
@@ -54,6 +55,18 @@ In this case we changed our directory into Desktop.
 
 ### 2- `ls` :
 `ls` shows us the files in a specific directory.
+
+```bash
+#SYNOPSIS:
+# ls [OPTION]...[FILE]...
+```
+
+#### options:
+1- `-a`, `--all` -> do not ignore entries starting with.
+
+2- `--version` -> output version information and exit.
+
+3- `-d`, `--directory` -> list the directoriy names (not theier contents)!
 
 For example, on the Desktop, we have some files, and we want to see their names and types in the terminal
 
