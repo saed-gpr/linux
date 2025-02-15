@@ -41,6 +41,8 @@ These are the Basic syntax:
 - `less`
 - `uname`
 - `nano`
+- `mkdir`
+- `wall`
 
 ### 1- `cd` :
 In fact, `cd` stands for 'Change Directory'. As you guessed, this syntax can help us change our current directory. This syntax is very basic and useful for us!
