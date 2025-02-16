@@ -34,7 +34,6 @@ These are the Basic syntax:
 - `sudo`
 - `whereis`
 - `cat`
-- `man`
 - `mkdir`
 - `ping`
 - `-ltrh`
