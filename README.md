@@ -29,7 +29,7 @@ We have many versions of Linux, but the most popular ones are Debian-based and R
  
 # Basic syntax
 These are the Basic syntax:
-- `cd`
+- [cd](https://github.com/saed-gpr/linux?tab=readme-ov-file#1--cd-)
 - `ls`
 - `sudo`
 - `whereis`
