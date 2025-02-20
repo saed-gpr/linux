@@ -64,6 +64,7 @@ We have many versions of Linux, but the most popular ones are Debian-based and R
    - `free`
 
 
+### File Management :
 
 ### 1- `cd` :
 In fact, `cd` stands for 'Change Directory'. As you guessed, this syntax can help us change our current directory. This syntax is very basic and useful for us!
