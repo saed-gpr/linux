@@ -35,7 +35,7 @@ We have many versions of Linux, but the most popular ones are Debian-based and R
 # Basic syntax
 
 
-#### File management :
+- #### File management :
   - `ls`
   - `cd`
   - `mkdir`
@@ -46,7 +46,7 @@ We have many versions of Linux, but the most popular ones are Debian-based and R
   - `pwd`
   - `locate`
 
-#### User management :
+- #### User management :
   - `whoami`
   - `passwd`
   - `id`
@@ -54,11 +54,11 @@ We have many versions of Linux, but the most popular ones are Debian-based and R
   - `uname`
 
 
-#### Networking :
+- #### Networking :
   - `ping`
   - `wall`
   
- #### System Management :
+ - #### System Management :
    - `pared`
    - `gparted`
    - `free`
