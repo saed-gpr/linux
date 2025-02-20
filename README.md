@@ -12,7 +12,12 @@ If that's the case, I suggest reading this repository to improve your Linux skil
 
 let me tell you the topics:
 - Types of linux
+
 - Basic syntax
+  -  File management
+  -  User management
+  -  Network
+    
 - Unix directories
 
 # Types of linux
@@ -45,6 +50,10 @@ These are the Basic syntax:
 - `dmesg`
 - `pared`
 - `gparted`
+- `free`
+- `pwd`
+- `tree`
+- `locate`
 
 ### 1- `cd` :
 In fact, `cd` stands for 'Change Directory'. As you guessed, this syntax can help us change our current directory. This syntax is very basic and useful for us!
@@ -127,4 +136,3 @@ sudo cat /var/log/boot.log
 
 #
 - Author : [Saed Gholipour](https://github.com/saed-gpr)
-- source : [Lpic1book](https://linux1st.com/)
