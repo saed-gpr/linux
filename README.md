@@ -29,7 +29,7 @@ We have many versions of Linux, but the most popular ones are Debian-based and R
  
 # Basic syntax
 These are the Basic syntax:
-- [cd](https://github.com/saed-gpr/linux?tab=readme-ov-file#1--cd-)
+- `cd`
 - `ls`
 - `sudo`
 - `whereis`
@@ -49,8 +49,10 @@ These are the Basic syntax:
 ### 1- `cd` :
 In fact, `cd` stands for 'Change Directory'. As you guessed, this syntax can help us change our current directory. This syntax is very basic and useful for us!
 
-![cd](https://github.com/user-attachments/assets/816b9079-0b3a-4844-9907-f051b6c0b3fa)
-
+```bash
+z@z:~$ cd Desktop/
+z@z:~/Desktop$ 
+```
 In this case we changed our directory into Desktop.
 
 
@@ -72,20 +74,15 @@ In this case we changed our directory into Desktop.
 For example, on the Desktop, we have some files, and we want to see their names and types in the terminal
 
 
-![ls 1](https://github.com/user-attachments/assets/288b011d-3526-4d60-8901-a6b6a3f8483a)
-
-so we can use this syntax
 ```bash
-ls
+z@z:~/Desktop$ ls
+'lpic1 book'   test.py  'this folder'
 ```
-![ls 2](https://github.com/user-attachments/assets/308101fa-86df-4b14-a51f-4b61883a5a40)
 
 as you can see we have a .py file, PDF and a folder.
 
 ### 3- `sudo` :
 When you use this syntax, you become the `root` user and are able to edit sensitive files, such as installing or modifying package settings. For this reason, you should know the password.
-
-![sudo](https://github.com/user-attachments/assets/35e61ddb-ddbf-4d7e-adf2-e1e07502882a)
 
 ```bash
 sudo shutdown
@@ -105,12 +102,10 @@ To find the path of some programs, you can use the `whereis` command. This comma
 
 - `-s` -> shearch for sources
 
-
-![whereis](https://github.com/user-attachments/assets/6c72cca9-fe6a-44d8-bdfd-5c4df2b839af)
-
 ```bash
 #whereis <file or program's name>
-whereis wireshark
+z@z:~$ whereis wireshark 
+wireshark: /usr/bin/wireshark /usr/lib/x86_64-linux-gnu/wireshark /etc/wireshark /usr/share/wireshark /usr/share/man/man1/wireshark.1.gz
 ```
 
 ### 5- `cat` :
@@ -127,9 +122,6 @@ If you want to see the content of a file, you can use this command. For example,
 ```bash
 sudo cat /var/log/boot.log
 ```
-
-
-https://github.com/user-attachments/assets/07d78e0f-bf13-4449-bd3f-af2ec1e509c9
 
 
 
