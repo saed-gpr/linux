@@ -36,8 +36,8 @@ We have many versions of Linux, but the most popular ones are Debian-based and R
 
 
 - #### File management :
-  - `ls`
   - `cd`
+  - `ls`
   - `mkdir`
   - `whereis`
   - `cat`
@@ -100,6 +100,46 @@ z@z:~/Desktop$ ls
 ```
 
 as you can see we have a .py file, PDF and a folder.
+
+### 3- `mkdir` :
+This syntax stands for making directories. you can use it to creating a DIRECTORY(ies)
+
+```bash
+#SYNOPSIS
+#mkdir [OPTION] ... DIREXTORY ...
+```
+
+#### Options:
+- `m`,`--mode` -> set file mode
+
+Imagine that you want to creat a directory that named by 'lpic1' on your desktop, here is what you should do:
+
+```bash
+z@z:~$ cd Desktop/
+z@z:~/Desktop$ mkdir lpic1
+```
+As you can see, we created a directory that named by 'lpic1'.
+
+### 4- `whereis` :
+This syntax locates the binary, source and manual files for the spexified command names.
+
+```bash
+#SYNOPSIS
+#whereis [options] [-BMS directory... -f] name ...
+```
+
+Options:
+- `-b` -> search for binaries.
+- `s` -> shearch for sources.
+
+```bash
+z@z:~/Desktop$ whereis wireshark 
+wireshark: /usr/bin/wireshark /usr/lib/x86_64-linux-gnu/wireshark /etc/wireshark /usr/share/wireshark /usr/share/man/man1/wireshark.1.gz
+```
+
+
+--------------------------------------------------------------------------------
+# خذفیات
 
 ### 3- `sudo` :
 When you use this syntax, you become the `root` user and are able to edit sensitive files, such as installing or modifying package settings. For this reason, you should know the password.
