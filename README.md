@@ -33,27 +33,37 @@ We have many versions of Linux, but the most popular ones are Debian-based and R
     - [AlmaLinux](https://almalinux.org/get-almalinux/)
  
 # Basic syntax
-These are the Basic syntax:
-- `cd`
-- `ls`
-- `sudo`
-- `whereis`
-- `cat`
-- `mkdir`
-- `ping`
-- `-ltrh`
-- `less`
-- `uname`
-- `nano`
-- `mkdir`
-- `wall`
-- `dmesg`
-- `pared`
-- `gparted`
-- `free`
-- `pwd`
-- `tree`
-- `locate`
+
+
+#### File management :
+  - `ls`
+  - `cd`
+  - `mkdir`
+  - `whereis`
+  - `cat`
+  - `dmesg`
+  - `tree`
+  - `pwd`
+  - `locate`
+
+#### User management :
+  - `whoami`
+  - `passwd`
+  - `id`
+  - `sudo`
+  - `uname`
+
+
+#### Networking :
+  - `ping`
+  - `wall`
+  
+ #### System Management :
+   - `pared`
+   - `gparted`
+   - `free`
+
+
 
 ### 1- `cd` :
 In fact, `cd` stands for 'Change Directory'. As you guessed, this syntax can help us change our current directory. This syntax is very basic and useful for us!
