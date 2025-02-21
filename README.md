@@ -258,6 +258,25 @@ z@z:/$ sudo dmesg
 [    0.011287] ACPI: HPET 0x00000000BFEDB6F7 000038 (v01 VMWARE VMW HPET 06040000 VMW  00000001)
 
 ```
+### 6- `tree` :
+
+The tree command in Linux is used to display the directory structure in a tree-like format.
+
+Options:
+- `-a` -> All files are listed
+- `-d` -> List directories only
+
+```bash
+z@z:~/Desktop$ tree
+.
+├── lpic1
+├── lpic1 book
+├── test.py
+└── this folder
+
+3 directories, 2 files
+```
+In this case, We have 3 directories and 2 files. as you can see, the format is like a tree.
 
 
 
