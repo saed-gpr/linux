@@ -44,7 +44,7 @@ We have many versions of Linux, but the most popular ones are Debian-based and R
   - `dmesg`
   - `tree`
   - `pwd`
-  - `locate`
+
 
 - #### User management :
   - `whoami`
@@ -128,7 +128,7 @@ This syntax locates the binary, source and manual files for the spexified comman
 #whereis [options] [-BMS directory... -f] name ...
 ```
 
-Options:
+#### Options:
 - `-b` -> search for binaries.
 - `s` -> shearch for sources.
 
@@ -145,7 +145,7 @@ concatenate FILE(s) to standard output.
 #cat [OPTION] ... [FILE] ...
 ```
 
-Options :
+#### Options :
 
 - `n`, `--number` -> number all output lines
 - `A`, `--show-all` -> equevalent to -vET
@@ -193,7 +193,7 @@ dmesg - print or control the kernel ring buffer
 #dmesg [OPTIONS]
 ```
 
-Options:
+#### Options:
 
 - `-C`, `--clear` -> clear the ring buffer
 - `-H`, `--human` -> Enable human-readable output.
@@ -262,7 +262,7 @@ z@z:/$ sudo dmesg
 
 The tree command in Linux is used to display the directory structure in a tree-like format.
 
-Options:
+#### Options:
 - `-a` -> All files are listed
 - `-d` -> List directories only
 
@@ -277,55 +277,37 @@ z@z:~/Desktop$ tree
 3 directories, 2 files
 ```
 In this case, We have 3 directories and 2 files. as you can see, the format is like a tree.
+z@z:~/Desktop$ pwd
+/home/z/Desktop
 
-
-
---------------------------------------------------------------------------------
-# خذفیات
-
-### 3- `sudo` :
-When you use this syntax, you become the `root` user and are able to edit sensitive files, such as installing or modifying package settings. For this reason, you should know the password.
+### 7- `pwd` :
+if you want to see the name of currentdirectory then you can use this command.
 
 ```bash
-sudo shutdown
-sudo reboot
+#SYNOPSIS:
+#pwd [OPTION] ...
 ```
-
-### 4- `Whereis` :
-To find the path of some programs, you can use the `whereis` command. This command shows you the path.
-
-``` bash
-#SYNPOSIS:
-#whereis [options] [-BMS derectory... -f] name ...
-```
-
-#### options:
-- `-b` -> search for binaries.
-
-- `-s` -> shearch for sources
+#### Options:
+- `L`, `--logical` -> use pwd from environment, even if it contains symlinks
 
 ```bash
-#whereis <file or program's name>
-z@z:~$ whereis wireshark 
-wireshark: /usr/bin/wireshark /usr/lib/x86_64-linux-gnu/wireshark /etc/wireshark /usr/share/wireshark /usr/share/man/man1/wireshark.1.gz
+z@z:~/Desktop$ pwd
+/home/z/Desktop
 ```
+### User Management :
 
-### 5- `cat` :
-If you want to see the content of a file, you can use this command. For example, if we want to see the content of `/var/log/boot.log` , we should first become root. Therefore, we use the sudo command and then cat.
+### 1- `whoami`:
+Prints effectives user.
 
 ```bash
-#SYNPOSIS:
-#cat [option]...[file]...
+#SYNOPSIS
+#whoami [OPTION] ...
 ```
 
-#### options:
-- `-A`, `--show-all` -> it is used for showing the content of a file with non-printing characters
-`
 ```bash
-sudo cat /var/log/boot.log
+z@z:~/Desktop$ whoami
+z
 ```
-
-
 
 #
 - Author : [Saed Gholipour](https://github.com/saed-gpr)
