@@ -185,6 +185,18 @@ z@z:/$ sudo cat /var/log/boot.log
 ```
 
 ### 6- `dmesg` :
+dmesg - print or control the kernel ring buffer
+
+```bash
+#SYNOPSIS
+#dmesg
+#dmesg [OPTIONS]
+```
+
+Options:
+
+- `-C`, `--clear` -> clear the ring buffer
+- `-H`, `--human` -> Enable human-readable output.
 
 
 ```bash
