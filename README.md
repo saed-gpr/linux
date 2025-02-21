@@ -184,6 +184,68 @@ z@z:/$ sudo cat /var/log/boot.log
          Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
 ```
 
+### 6- `dmesg` :
+
+
+```bash
+z@z:/$ sudo dmesg
+[    0.000000] Linux version 6.2.0-39-generic (buildd@bos03-amd64-014) (x86_64-linux-gnu-gcc-12 (Ubuntu 12.3.0-1ubuntu1~23.04) 12.3.0, GNU ld (GNU Binutils for Ubuntu) 2.40) #40-Ubuntu SMP PREEMPT_DYNAMIC Tue Nov 14 14:18:00 UTC 2023 (Ubuntu 6.2.0-39.40-generic 6.2.16)
+[    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-6.2.0-39-generic root=UUID=c5ffcf3a-5306-4858-a5ef-c36c01a13eef ro quiet splash
+[    0.000000] KERNEL supported cpus:
+[    0.000000]   Intel GenuineIntel
+[    0.000000]   AMD AuthenticAMD
+[    0.000000]   Hygon HygonGenuine
+[    0.000000]   Centaur CentaurHauls
+[    0.000000]   zhaoxin   Shanghai  
+[    0.000000] Disabled fast string operations
+[    0.000000] BIOS-provided physical RAM map:
+[    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009e7ff] usable
+[    0.000000] BIOS-e820: [mem 0x000000000009e800-0x000000000009ffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000000dc000-0x00000000000fffff] reserved
+[    0.000000] BIOS-e820: [mem 0x0000000000100000-0x00000000bfecffff] usable
+[    0.000000] BIOS-e820: [mem 0x00000000bfed0000-0x00000000bfefefff] ACPI data
+[    0.000000] BIOS-e820: [mem 0x00000000bfeff000-0x00000000bfefffff] ACPI NVS
+[    0.000000] BIOS-e820: [mem 0x00000000bff00000-0x00000000bfffffff] usable
+[    0.000000] BIOS-e820: [mem 0x00000000f0000000-0x00000000f7ffffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec0ffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fffe0000-0x00000000ffffffff] reserved
+[    0.000000] BIOS-e820: [mem 0x0000000100000000-0x00000001fdbfffff] usable
+[    0.000000] NX (Execute Disable) protection: active
+[    0.000000] SMBIOS 2.7 present.
+[    0.000000] DMI: VMware, Inc. VMware Virtual Platform/440BX Desktop Reference Platform, BIOS 6.00 02/27/2020
+[    0.000000] vmware: hypercall mode: 0x00
+[    0.000000] Hypervisor detected: VMware
+[    0.000000] vmware: TSC freq read from hypervisor : 2496.003 MHz
+[    0.000000] vmware: Host bus clock speed read from hypervisor : 66000000 Hz
+[    0.000000] vmware: using clock offset of 5916704456 ns
+[    0.000011] tsc: Detected 2496.003 MHz processor
+[    0.001687] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+[    0.001691] e820: remove [mem 0x000a0000-0x000fffff] usable
+[    0.001696] last_pfn = 0x1fdc00 max_arch_pfn = 0x400000000
+[    0.001712] total RAM covered: 130048M
+[    0.001805] Found optimal setting for mtrr clean up
+[    0.001806]  gran_size: 64K 	chunk_size: 64K num_reg: 7  	lose cover RAM: 0G
+[    0.001809] x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+[    0.001846] e820: update [mem 0xc0000000-0xffffffff] usable ==> reserved
+[    0.001851] last_pfn = 0xc0000 max_arch_pfn = 0x400000000
+[    0.010968] found SMP MP-table at [mem 0x000f6a70-0x000f6a7f]
+[    0.011011] Using GB pages for direct mapping
+[    0.011182] RAMDISK: [mem 0x2fd49000-0x33e9bfff]
+[    0.011198] ACPI: Early table checksum verification disabled
+[    0.011201] ACPI: RSDP 0x00000000000F6A00 000024 (v02 PTLTD )
+[    0.011207] ACPI: XSDT 0x00000000BFEDB633 00005C (v01 INTEL  440BX    06040000 VMW  01324272)
+[    0.011213] ACPI: FACP 0x00000000BFEFEE73 0000F4 (v04 INTEL  440BX    06040000 PTL  000F4240)
+[    0.011234] ACPI: DSDT 0x00000000BFEDD001 021E72 (v01 PTLTD  Custom   06040000 MSFT 03000001)
+[    0.011239] ACPI: FACS 0x00000000BFEFFFC0 000040
+[    0.011242] ACPI: FACS 0x00000000BFEFFFC0 000040
+[    0.011273] ACPI: BOOT 0x00000000BFEDCFB4 000028 (v01 PTLTD  $SBFTBL$ 06040000  LTP 00000001)
+[    0.011277] ACPI: APIC 0x00000000BFEDC872 000742 (v01 PTLTD  ? APIC   06040000  LTP 00000000)
+[    0.011280] ACPI: MCFG 0x00000000BFEDC836 00003C (v01 PTLTD  $PCITBL$ 06040000  LTP 00000001)
+[    0.011284] ACPI: SRAT 0x00000000BFEDB72F 0008D0 (v02 VMWARE MEMPLUG  06040000 VMW  00000001)
+[    0.011287] ACPI: HPET 0x00000000BFEDB6F7 000038 (v01 VMWARE VMW HPET 06040000 VMW  00000001)
+
+```
 
 
 
