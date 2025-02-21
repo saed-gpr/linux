@@ -137,6 +137,87 @@ z@z:~/Desktop$ whereis wireshark
 wireshark: /usr/bin/wireshark /usr/lib/x86_64-linux-gnu/wireshark /etc/wireshark /usr/share/wireshark /usr/share/man/man1/wireshark.1.gz
 ```
 
+### 5- `cat` :
+concatenate FILE(s) to standard output.
+
+```bash
+#SYNOPSIS
+#cat [OPTION] ... [FILE] ...
+```
+
+Options :
+
+- `n`, `--number` -> number all output lines
+- `A`, `--show-all` -> equevalent to -vET
+
+For example, i want to see the output of `/var/log/boot.log` that shows us the system's logs. you can use this syntax with any files.
+
+```bash
+z@z:/$ sudo cat /var/log/boot.log
+[sudo] password for z: 
+[  OK  ] Started accounts-daemon.service - Accounts Service.
+[  OK  ] Started rsyslog.service - System Logging Service.
+[  OK  ] Stopped cups.path - CUPS Scheduler.
+         Stopping cups.path - CUPS Scheduler...
+[  OK  ] Started cups.path - CUPS Scheduler.
+[  OK  ] Closed cups.socket - CUPS Scheduler.
+         Stopping cups.socket - CUPS Scheduler...
+[  OK  ] Listening on cups.socket - CUPS Scheduler.
+[  OK  ] Started NetworkManager.service - Network Manager.
+[  OK  ] Reached target network.target - Network.
+         Starting NetworkManager-wait-online.service - Network Manager Wait Online...
+         Starting cups.service - CUPS Scheduler...
+         Starting openvpn.service - OpenVPN service...
+[  OK  ] Started snap.v2ray-core.v2ray.service - Service for snap application v2ray-core.v2ray.
+         Starting systemd-user-sessions.service - Permit User Sessions...
+[  OK  ] Finished openvpn.service - OpenVPN service.
+[  OK  ] Finished systemd-user-sessions.service - Permit User Sessions.
+[  OK  ] Started ModemManager.service - Modem Manager.
+         Starting gdm.service - GNOME Display Manager...
+         Starting plymouth-quit-wait.service - Hold until boot process finishes up...
+         Starting systemd-hostnamed.service - Hostname Service...
+[  OK  ] Started udisks2.service - Disk Manager.
+[  OK  ] Started cups.service - CUPS Scheduler.
+[  OK  ] Finished logrotate.service - Rotate log files.
+[  OK  ] Finished e2scrub_reap.service - Remove Stale Online ext4 Metadata Check Snapshots.
+[  OK  ] Started systemd-hostnamed.service - Hostname Service.
+[  OK  ] Started gdm.service - GNOME Display Manager.
+         Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+z@z:/$ 
+z@z:/$ sudo cat /var/log/boot.log
+[  OK  ] Started accounts-daemon.service - Accounts Service.
+[  OK  ] Started rsyslog.service - System Logging Service.
+[  OK  ] Stopped cups.path - CUPS Scheduler.
+         Stopping cups.path - CUPS Scheduler...
+[  OK  ] Started cups.path - CUPS Scheduler.
+[  OK  ] Closed cups.socket - CUPS Scheduler.
+         Stopping cups.socket - CUPS Scheduler...
+[  OK  ] Listening on cups.socket - CUPS Scheduler.
+[  OK  ] Started NetworkManager.service - Network Manager.
+[  OK  ] Reached target network.target - Network.
+         Starting NetworkManager-wait-online.service - Network Manager Wait Online...
+         Starting cups.service - CUPS Scheduler...
+         Starting openvpn.service - OpenVPN service...
+[  OK  ] Started snap.v2ray-core.v2ray.service - Service for snap application v2ray-core.v2ray.
+         Starting systemd-user-sessions.service - Permit User Sessions...
+[  OK  ] Finished openvpn.service - OpenVPN service.
+[  OK  ] Finished systemd-user-sessions.service - Permit User Sessions.
+[  OK  ] Started ModemManager.service - Modem Manager.
+         Starting gdm.service - GNOME Display Manager...
+         Starting plymouth-quit-wait.service - Hold until boot process finishes up...
+         Starting systemd-hostnamed.service - Hostname Service...
+[  OK  ] Started udisks2.service - Disk Manager.
+[  OK  ] Started cups.service - CUPS Scheduler.
+[  OK  ] Finished logrotate.service - Rotate log files.
+[  OK  ] Finished e2scrub_reap.service - Remove Stale Online ext4 Metadata Check Snapshots.
+[  OK  ] Started systemd-hostnamed.service - Hostname Service.
+[  OK  ] Started gdm.service - GNOME Display Manager.
+         Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+
+```
+
+
+
 
 --------------------------------------------------------------------------------
 # خذفیات
