@@ -57,7 +57,7 @@ We have many versions of Linux, but the most popular ones are Debian-based and R
 - #### Networking :
   - `ping`
   - `wall`
-  
+
  - #### System Management :
    - `pared`
    - `gparted`
@@ -309,7 +309,7 @@ z@z:~/Desktop$ whoami
 z
 ```
 
-### 2- passwd :
+### 2- `passwd` :
 The passwd command changes passwords for user accounts. A normal user may only change the password for their own account, while the superuser may change the password for any account.
 
 
@@ -366,6 +366,33 @@ z@z:~$ uname
 Linux
 ```
 
+### Networking :
+
+### 1- `ping` :
+ping - send ICMP ECHO_REQUEST to network hosts
+
+```bash
+z@z:~$ ping 4.2.2.4
+PING 4.2.2.4 (4.2.2.4) 56(84) bytes of data.
+64 bytes from 4.2.2.4: icmp_seq=1 ttl=128 time=133 ms
+64 bytes from 4.2.2.4: icmp_seq=2 ttl=128 time=111 ms
+```
+### 2- `wall` :
+wall - write a message to all users
+
+```bash
+#SYNOPSIS
+#wall [-n] [-t timeout] [-g group] [message | file]
+```
+
+```bash
+z@z:~$ sudo wall -n hello there
+[sudo] password for z: 
+wall: /dev/seat0: No such file or directory
+                                                                               
+hello there
+                                                            
+```
 
 
 
