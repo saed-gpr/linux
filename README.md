@@ -394,6 +394,61 @@ hello there
                                                             
 ```
 
+### System Management :
+
+### 1- `parted` :
+parted - a partition manipulation pro-gram
+
+```bash
+#SYNOPSIS
+# parted [options] [device [command [options...]...]]
+```
+#### Options:
+
+- `-h`, `--help` -> displays a help message
+- `l`, `--list` -> lists partition layout on all block devices
+
+```bash
+z@z:~$ sudo parted
+[sudo] password for z: 
+GNU Parted 3.5
+Using /dev/sda
+Welcome to GNU Parted! Type 'help' to view a
+list of commands.
+                                               (parted) print             
+Model: VMware, VMware Virtual S (scsi)
+Disk /dev/sda: 37.6GB
+Sector size (logical/physical): 512B/512B
+Partition Table: gpt
+Disk Flags: 
+
+Number  Start   End     Size    File system  Name  Flags
+ 1      1049kB  2097kB  1049kB                     bios_grub
+ 2      2097kB  37.6GB  37.6GB  ext4
+```
+
+### 2- `gparted` :
+This command is almost same as `parted`, but it has the graphical interface wich makes it easier to understand.
+
+```bash
+#SYNOPSIS
+#gparted [device] ...
+```
+
+### 3- `free` :
+free displays the total amount of free and used physical and swap memory in the system.
+
+```bash
+#SYNOPSIS
+#free [options]
+```
+
+```bash
+z@z:~$ free
+               total        used        free      shared  buff/cache   available
+Mem:         7017716     2278740     2520100       68768     2588440     4738976
+Swap:        4194300           0     4194300
+```
 
 
 #
