@@ -258,7 +258,7 @@ z@z:/$ sudo dmesg
 [    0.011287] ACPI: HPET 0x00000000BFEDB6F7 000038 (v01 VMWARE VMW HPET 06040000 VMW  00000001)
 
 ```
-### 6- `tree` :
+### 7- `tree` :
 
 The tree command in Linux is used to display the directory structure in a tree-like format.
 
@@ -280,7 +280,7 @@ In this case, We have 3 directories and 2 files. as you can see, the format is l
 z@z:~/Desktop$ pwd
 /home/z/Desktop
 
-### 7- `pwd` :
+### 8- `pwd` :
 if you want to see the name of currentdirectory then you can use this command.
 
 ```bash
@@ -296,7 +296,7 @@ z@z:~/Desktop$ pwd
 ```
 ### User Management :
 
-### 1- `whoami`:
+### 1- `whoami` :
 Prints effectives user.
 
 ```bash
@@ -308,6 +308,66 @@ Prints effectives user.
 z@z:~/Desktop$ whoami
 z
 ```
+
+### 2- passwd :
+The passwd command changes passwords for user accounts. A normal user may only change the password for their own account, while the superuser may change the password for any account.
+
+
+```bash
+#SYNOPSIS
+#passwd [options] [LOGIN]
+```
+#### Options :
+- `-d`, `--delete` -> delete a user's password
+
+
+
+### 3- `id` :
+This command prints real and effective user and group IDs
+
+```bash
+#SYNOPSIS
+#id [OPTION] ... [USER] ...
+```
+
+#### Options :
+- `-a` -> ignore, for compatibility with other versions
+- `-g`, `--group` -> print only the effective group ID
+
+```bash
+z@z:~$ id
+uid=1000(z) gid=1000(z) groups=1000(z),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),100(users),118(lpadmin)
+```
+
+### 4- `sudo` :
+sudo allows a premitted user to execute a command as the superuser or another user as specified by the securit pol-icy
+ 
+ ```bash
+z@z:~$ sudo su -
+[sudo] password for z: 
+root@z:~#
+```
+
+### 5- `uname` :
+This command prints certain system information
+
+```bash
+#SYNOPPSIS
+#uname [OPTION] ...
+```
+
+#### Options :
+- `-a`, `--all` -> print all information
+- `s`, `--kernel-name` -> print the kernel name
+- `-v`, `--kernel-version` -> print the kernel version
+
+```bash
+z@z:~$ uname
+Linux
+```
+
+
+
 
 #
 - Author : [Saed Gholipour](https://github.com/saed-gpr)
