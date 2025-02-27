@@ -44,6 +44,7 @@ We have many versions of Linux, but the most popular ones are Debian-based and R
   - `dmesg`
   - `tree`
   - `pwd`
+  - `mv`
 
 
 - #### User management :
@@ -294,6 +295,24 @@ if you want to see the name of currentdirectory then you can use this command.
 z@z:~/Desktop$ pwd
 /home/z/Desktop
 ```
+
+### 9- `mv` :
+this command moves the files into another directory or location
+
+`bash
+#SYNOPSIS
+mv [OPTION]... [-T] SOURCE DEST
+mv [OPTION]... SOURCE... DIRECTORY
+mv [OPTION]... -t DIRECTORY SOURCE...
+`
+
+imagine you have a .py file and you want to move it to Desktop.
+you can use the following command.
+
+`bash
+z@z:~$ mv program.py Desktop/
+`
+
 ### User Management :
 
 ### 1- `whoami` :
