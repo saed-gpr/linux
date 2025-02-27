@@ -299,19 +299,19 @@ z@z:~/Desktop$ pwd
 ### 9- `mv` :
 this command moves the files into another directory or location
 
-`bash
+```bash
 #SYNOPSIS
 mv [OPTION]... [-T] SOURCE DEST
 mv [OPTION]... SOURCE... DIRECTORY
 mv [OPTION]... -t DIRECTORY SOURCE...
-`
+```
 
 imagine you have a .py file and you want to move it to Desktop.
 you can use the following command.
 
-`bash
+```bash
 z@z:~$ mv program.py Desktop/
-`
+```
 
 ### User Management :
 
