@@ -7,7 +7,8 @@ This repository contains a collection of resources, commands, and tips for learn
 Imagine you've installed Ubuntu or another Linux distribution (if you encounter any issues during the installation process, feel free to ask me to create a tutorial video), and now you want to start using it but don't know where to begin.
 If that's the case, I suggest reading this repository to improve your Linux skills!
 
-:red_circle: Notice: I am just sharing some of my knowledge (not all of it)
+> I am just sharing some of my knowledge (not all of it)
+
 # Topics
 
 let me tell you the topics:
