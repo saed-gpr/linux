@@ -1,4 +1,4 @@
-# Basic Linux knowledge 
+# Common Linux commands 
 
 
 ### Introduction:
